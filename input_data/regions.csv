@@ -1,0 +1,338 @@
+name,code,global_id,parent_id,local_id,level
+Total,TOTAL,1,0,1,1
+European Union (EU27),EU27_NUTS2,2,1,1,2
+Europe (Not-EU),O_WE,3,1,2,2
+Middle-East,T_WM,4,1,3,2
+America,T_WL,5,1,4,2
+Asia-Pacific,T_WA,6,1,5,2
+Africa,T_WF,7,1,6,2
+United Kingdom,UK,8,3,7,3
+United States,US,9,5,8,3
+Japan,JP,10,6,9,3
+China,CN,11,6,10,3
+Canada,CA,12,5,11,3
+South Korea,KR,13,6,12,3
+Brazil,BR,14,5,13,3
+India,IN,15,6,14,3
+Mexico,MX,16,5,15,3
+Russia,RU,17,3,16,3
+Australia,AU,18,6,17,3
+Switzerland,CH,19,3,18,3
+Turkey,TR,20,3,19,3
+Taiwan,TW,21,6,20,3
+Norway,NO,22,3,21,3
+Indonesia,ID,23,6,22,3
+South Africa,ZA,24,7,23,3
+Rest of Asia and Pacific,WA,25,6,24,3
+Rest of America,WL,26,5,25,3
+Rest of Europe,WE,27,3,26,3
+Rest of Africa,WF,28,7,27,3
+Rest of Middle East,WM,29,4,28,3
+Austria,AT,30,2,29,3
+Belgium,BE,31,2,30,3
+Bulgaria,BG,32,2,31,3
+Cyprus,CY,33,2,32,3
+Czech Republic,CZ,34,2,33,3
+Germany,DE,35,2,34,3
+Denmark,DK,36,2,35,3
+Estonia,EE,37,2,36,3
+Spain,ES,38,2,37,3
+Finland,FI,39,2,38,3
+France,FR,40,2,39,3
+Greece,EL,41,2,40,3
+Croatia,HR,42,2,41,3
+Hungary,HU,43,2,42,3
+Ireland,IE,44,2,43,3
+Italy,IT,45,2,44,3
+Lithuania,LT,46,2,45,3
+Luxembourg,LU,47,2,46,3
+Latvia,LV,48,2,47,3
+Malta,MT,49,2,48,3
+Netherlands,NL,50,2,49,3
+Poland,PL,51,2,50,3
+Portugal,PT,52,2,51,3
+Romania,RO,53,2,52,3
+Sweden,SE,54,2,53,3
+Slovenia,SI,55,2,54,3
+Slovakia,SK,56,2,55,3
+Burgenland,AT11,57,30,56,4
+Niederösterreich,AT12,58,30,56,4
+Wien,AT13,59,30,56,4
+Kärnten,AT21,60,30,56,4
+Steiermark,AT22,61,30,56,4
+Oberösterreich,AT31,62,30,56,4
+Salzburg,AT32,63,30,56,4
+Tirol,AT33,64,30,56,4
+Vorarlberg,AT34,65,30,56,4
+Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest,BE10,66,31,56,4
+Prov. Antwerpen,BE21,67,31,56,4
+Prov. Limburg (BE),BE22,68,31,56,4
+Prov. Oost-Vlaanderen,BE23,69,31,56,4
+Prov. Vlaams-Brabant,BE24,70,31,56,4
+Prov. West-Vlaanderen,BE25,71,31,56,4
+Prov. Brabant Wallon,BE31,72,31,56,4
+Prov. Hainaut,BE32,73,31,56,4
+Prov. Liège,BE33,74,31,56,4
+Prov. Luxembourg (BE),BE34,75,31,56,4
+Prov. Namur,BE35,76,31,56,4
+Северозападен (Severozapaden),BG31,77,32,56,4
+Северен централен (Severen tsentralen),BG32,78,32,56,4
+Североизточен (Severoiztochen),BG33,79,32,56,4
+Югоизточен (Yugoiztochen),BG34,80,32,56,4
+Югозападен (Yugozapaden),BG41,81,32,56,4
+Южен централен (Yuzhen tsentralen),BG42,82,32,56,4
+Κύπρος (Kypros),CY00,83,33,56,4
+Praha,CZ01,84,34,56,4
+Střední Čechy,CZ02,85,34,56,4
+Jihozápad,CZ03,86,34,56,4
+Severozápad,CZ04,87,34,56,4
+Severovýchod,CZ05,88,34,56,4
+Jihovýchod,CZ06,89,34,56,4
+Střední Morava,CZ07,90,34,56,4
+Moravskoslezsko,CZ08,91,34,56,4
+Stuttgart,DE11,92,35,56,4
+Karlsruhe,DE12,93,35,56,4
+Freiburg,DE13,94,35,56,4
+Tübingen,DE14,95,35,56,4
+Oberbayern,DE21,96,35,56,4
+Niederbayern,DE22,97,35,56,4
+Oberpfalz,DE23,98,35,56,4
+Oberfranken,DE24,99,35,56,4
+Mittelfranken,DE25,100,35,56,4
+Unterfranken,DE26,101,35,56,4
+Schwaben,DE27,102,35,56,4
+Berlin,DE30,103,35,56,4
+Brandenburg,DE40,104,35,56,4
+Bremen,DE50,105,35,56,4
+Hamburg,DE60,106,35,56,4
+Darmstadt,DE71,107,35,56,4
+Gießen,DE72,108,35,56,4
+Kassel,DE73,109,35,56,4
+Mecklenburg-Vorpommern,DE80,110,35,56,4
+Braunschweig,DE91,111,35,56,4
+Hannover,DE92,112,35,56,4
+Lüneburg,DE93,113,35,56,4
+Weser-Ems,DE94,114,35,56,4
+Düsseldorf,DEA1,115,35,56,4
+Köln,DEA2,116,35,56,4
+Münster,DEA3,117,35,56,4
+Detmold,DEA4,118,35,56,4
+Arnsberg,DEA5,119,35,56,4
+Koblenz,DEB1,120,35,56,4
+Trier,DEB2,121,35,56,4
+Rheinhessen-Pfalz,DEB3,122,35,56,4
+Saarland,DEC0,123,35,56,4
+Dresden,DED2,124,35,56,4
+Chemnitz,DED4,125,35,56,4
+Leipzig,DED5,126,35,56,4
+Sachsen-Anhalt,DEE0,127,35,56,4
+Schleswig-Holstein,DEF0,128,35,56,4
+Thüringen,DEG0,129,35,56,4
+Hovedstaden,DK01,130,36,56,4
+Sjælland,DK02,131,36,56,4
+Syddanmark,DK03,132,36,56,4
+Midtjylland,DK04,133,36,56,4
+Nordjylland,DK05,134,36,56,4
+Eesti,EE00,135,37,56,4
+Galicia,ES11,136,38,56,4
+Principado de Asturias,ES12,137,38,56,4
+Cantabria,ES13,138,38,56,4
+País Vasco,ES21,139,38,56,4
+Comunidad Foral de Navarra,ES22,140,38,56,4
+La Rioja,ES23,141,38,56,4
+Aragón,ES24,142,38,56,4
+Comunidad de Madrid,ES30,143,38,56,4
+Castilla y León,ES41,144,38,56,4
+Castilla-La Mancha,ES42,145,38,56,4
+Extremadura,ES43,146,38,56,4
+Cataluña,ES51,147,38,56,4
+Comunidad Valenciana,ES52,148,38,56,4
+Illes Balears,ES53,149,38,56,4
+Andalucía,ES61,150,38,56,4
+Región de Murcia,ES62,151,38,56,4
+Ciudad Autónoma de Ceuta,ES63,152,38,56,4
+Ciudad Autónoma de Melilla,ES64,153,38,56,4
+Canarias,ES70,154,38,56,4
+Länsi-Suomi,FI19,155,39,56,4
+Helsinki-Uusimaa,FI1B,156,39,56,4
+Etelä-Suomi,FI1C,157,39,56,4
+Pohjois- ja Itä-Suomi,FI1D,158,39,56,4
+Åland,FI20,159,39,56,4
+Ile-de-France,FR10,160,40,56,4
+Centre — Val de Loire,FRB0,161,40,56,4
+Bourgogne,FRC1,162,40,56,4
+Franche-Comté,FRC2,163,40,56,4
+Basse-Normandie,FRD1,164,40,56,4
+Haute-Normandie,FRD2,165,40,56,4
+Nord-Pas de Calais,FRE1,166,40,56,4
+Picardie,FRE2,167,40,56,4
+Alsace,FRF1,168,40,56,4
+Champagne-Ardenne,FRF2,169,40,56,4
+Lorraine,FRF3,170,40,56,4
+Pays de la Loire,FRG0,171,40,56,4
+Bretagne,FRH0,172,40,56,4
+Aquitaine,FRI1,173,40,56,4
+Limousin,FRI2,174,40,56,4
+Poitou-Charentes,FRI3,175,40,56,4
+Languedoc-Roussillon,FRJ1,176,40,56,4
+Midi-Pyrénées,FRJ2,177,40,56,4
+Auvergne,FRK1,178,40,56,4
+Rhône-Alpes,FRK2,179,40,56,4
+Provence-Alpes-Côte d’Azur,FRL0,180,40,56,4
+Corse,FRM0,181,40,56,4
+Guadeloupe,FRY1,182,40,56,4
+Martinique,FRY2,183,40,56,4
+Guyane,FRY3,184,40,56,4
+La Réunion,FRY4,185,40,56,4
+Mayotte,FRY5,186,40,56,4
+Aττική (Attiki),EL30,187,41,56,4
+Βόρειο Αιγαίο (Voreio Aigaio),EL41,188,41,56,4
+Νότιο Αιγαίο (Notio Aigaio),EL42,189,41,56,4
+Κρήτη (Kriti),EL43,190,41,56,4
+Aνατολική Μακεδονία Θράκη (Anatoliki Makedonia Thraki),EL51,191,41,56,4
+Κεντρική Μακεδονία (Kentriki Makedonia),EL52,192,41,56,4
+Δυτική Μακεδονία (Dytiki Makedonia),EL53,193,41,56,4
+Ήπειρος (Ipeiros),EL54,194,41,56,4
+Θεσσαλία (Thessalia),EL61,195,41,56,4
+Ιόνια Νησιά (Ionia Nisia),EL62,196,41,56,4
+Δυτική Ελλάδα (Dytiki Ellada),EL63,197,41,56,4
+Στερεά Ελλάδα (Sterea Ellada),EL64,198,41,56,4
+Πελοπόννησος (Peloponnisos),EL65,199,41,56,4
+Jadranska Hrvatska,HR03,200,42,56,4
+Kontinentalna Hrvatska,HR04,201,42,56,4
+Budapest,HU11,202,43,56,4
+Pest,HU12,203,43,56,4
+Közép-Dunántúl,HU21,204,43,56,4
+Nyugat-Dunántúl,HU22,205,43,56,4
+Dél-Dunántúl,HU23,206,43,56,4
+Észak-Magyarország,HU31,207,43,56,4
+Észak-Alföld,HU32,208,43,56,4
+Dél-Alföld,HU33,209,43,56,4
+Northern and Western,IE04,210,44,56,4
+Southern,IE05,211,44,56,4
+Eastern and Midland,IE06,212,44,56,4
+Piemonte,ITC1,213,45,56,4
+Valle d’Aosta/Vallée d’Aoste,ITC2,214,45,56,4
+Liguria,ITC3,215,45,56,4
+Lombardia,ITC4,216,45,56,4
+Abruzzo,ITF1,217,45,56,4
+Molise,ITF2,218,45,56,4
+Campania,ITF3,219,45,56,4
+Puglia,ITF4,220,45,56,4
+Basilicata,ITF5,221,45,56,4
+Calabria,ITF6,222,45,56,4
+Sicilia,ITG1,223,45,56,4
+Sardegna,ITG2,224,45,56,4
+Provincia Autonoma di Bolzano/Bozen,ITH1,225,45,56,4
+Provincia Autonoma di Trento,ITH2,226,45,56,4
+Veneto,ITH3,227,45,56,4
+Friuli-Venezia Giulia,ITH4,228,45,56,4
+Emilia-Romagna,ITH5,229,45,56,4
+Toscana,ITI1,230,45,56,4
+Umbria,ITI2,231,45,56,4
+Marche,ITI3,232,45,56,4
+Lazio,ITI4,233,45,56,4
+Sostinės regionas,LT01,234,46,56,4
+Vidurio ir vakarų Lietuvos regionas,LT02,235,46,56,4
+Luxembourg,LU00,236,47,56,4
+Latvija,LV00,237,48,56,4
+Malta,MT00,238,49,56,4
+Groningen,NL11,239,50,56,4
+Friesland (NL),NL12,240,50,56,4
+Drenthe,NL13,241,50,56,4
+Overijssel,NL21,242,50,56,4
+Gelderland,NL22,243,50,56,4
+Flevoland,NL23,244,50,56,4
+Utrecht,NL31,245,50,56,4
+Noord-Holland,NL32,246,50,56,4
+Zuid-Holland,NL33,247,50,56,4
+Zeeland,NL34,248,50,56,4
+Noord-Brabant,NL41,249,50,56,4
+Limburg (NL),NL42,250,50,56,4
+Małopolskie,PL21,251,51,56,4
+Śląskie,PL22,252,51,56,4
+Wielkopolskie,PL41,253,51,56,4
+Zachodniopomorskie,PL42,254,51,56,4
+Lubuskie,PL43,255,51,56,4
+Dolnośląskie,PL51,256,51,56,4
+Opolskie,PL52,257,51,56,4
+Kujawsko-pomorskie,PL61,258,51,56,4
+Warmińsko-mazurskie,PL62,259,51,56,4
+Pomorskie,PL63,260,51,56,4
+Łódzkie,PL71,261,51,56,4
+Świętokrzyskie,PL72,262,51,56,4
+Lubelskie,PL81,263,51,56,4
+Podkarpackie,PL82,264,51,56,4
+Podlaskie,PL84,265,51,56,4
+Warszawski stołeczny,PL91,266,51,56,4
+Mazowiecki regionalny,PL92,267,51,56,4
+Norte,PT11,268,52,56,4
+Algarve,PT15,269,52,56,4
+Centro (PT),PT16,270,52,56,4
+Área Metropolitana de Lisboa,PT17,271,52,56,4
+Alentejo,PT18,272,52,56,4
+Região Autónoma dos Açores,PT20,273,52,56,4
+Região Autónoma da Madeira,PT30,274,52,56,4
+Nord-Vest,RO11,275,53,56,4
+Centru,RO12,276,53,56,4
+Nord-Est,RO21,277,53,56,4
+Sud-Est,RO22,278,53,56,4
+Sud - Muntenia,RO31,279,53,56,4
+Bucureşti - Ilfov,RO32,280,53,56,4
+Sud-Vest Oltenia,RO41,281,53,56,4
+Vest,RO42,282,53,56,4
+Stockholm,SE11,283,54,56,4
+Östra Mellansverige,SE12,284,54,56,4
+Småland med öarna,SE21,285,54,56,4
+Sydsverige,SE22,286,54,56,4
+Västsverige,SE23,287,54,56,4
+Norra Mellansverige,SE31,288,54,56,4
+Mellersta Norrland,SE32,289,54,56,4
+Övre Norrland,SE33,290,54,56,4
+Vzhodna Slovenija,SI03,291,55,56,4
+Zahodna Slovenija,SI04,292,55,56,4
+Bratislavský kraj,SK01,293,56,56,4
+Západné Slovensko,SK02,294,56,56,4
+Stredné Slovensko,SK03,295,56,56,4
+Východné Slovensko,SK04,296,56,56,4
+Tees Valley and Durham,UKC1,297,8,56,4
+Northumberland and Tyne and Wear,UKC2,298,9,56,4
+Cumbria,UKD1,299,10,56,4
+Greater Manchester,UKD3,300,11,56,4
+Lancashire,UKD4,301,12,56,4
+Cheshire,UKD6,302,13,56,4
+Merseyside,UKD7,303,14,56,4
+East Yorkshire and Northern Lincolnshire,UKE1,304,15,56,4
+North Yorkshire,UKE2,305,16,56,4
+South Yorkshire,UKE3,306,17,56,4
+West Yorkshire,UKE4,307,18,56,4
+Derbyshire and Nottinghamshire,UKF1,308,19,56,4
+Leicestershire Rutland and Northamptonshire,UKF2,309,20,56,4
+Lincolnshire,UKF3,310,21,56,4
+Herefordshire Worcestershire and Warwickshire,UKG1,311,22,56,4
+Shropshire and Staffordshire,UKG2,312,23,56,4
+West Midlands,UKG3,313,24,56,4
+East Anglia,UKH1,314,25,56,4
+Bedfordshire and Hertfordshire,UKH2,315,26,56,4
+Essex,UKH3,316,27,56,4
+Inner London — West,UKI3,317,28,56,4
+Inner London — East,UKI4,318,29,56,4
+Outer London — East and North East,UKI5,319,30,56,4
+Outer London — South,UKI6,320,31,56,4
+Outer London — West and North West,UKI7,321,32,56,4
+Berkshire Buckinghamshire and Oxfordshire,UKJ1,322,33,56,4
+Surrey East and West Sussex,UKJ2,323,34,56,4
+Hampshire and Isle of Wight,UKJ3,324,35,56,4
+Kent,UKJ4,325,36,56,4
+Gloucestershire Wiltshire and Bristol/Bath area,UKK1,326,37,56,4
+Dorset and Somerset,UKK2,327,38,56,4
+Cornwall and Isles of Scilly,UKK3,328,39,56,4
+Devon,UKK4,329,40,56,4
+West Wales and The Valleys,UKL1,330,41,56,4
+East Wales,UKL2,331,42,56,4
+North Eastern Scotland,UKM5,332,43,56,4
+Highlands and Islands,UKM6,333,44,56,4
+Eastern Scotland,UKM7,334,45,56,4
+West Central Scotland,UKM8,335,46,56,4
+Southern Scotland,UKM9,336,47,56,4
+Northern Ireland,UKN0,337,48,56,4
