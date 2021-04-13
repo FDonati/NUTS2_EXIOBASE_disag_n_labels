@@ -19,7 +19,7 @@ import os
 import collections
 import json
 
-ORIGINAL_EXIO_FILE = 'input_data/regions.csv'
+ORIGINAL_EXIO_FILE = 'labels_raw/regions.csv'
 NUTS_CLASSIFICATIONS = 'input_data/NUTS_2016L_20190228_185914.csv'
 HEADER = ["name", "code", "global_id", "parent_id", "local_id", "level"]
 FIRST_ROW = ["EU NUTS2", "ALL_EU_NUTS2", "1", "0", "1", "1"]
@@ -27,7 +27,7 @@ FIRST_ROW = ["EU NUTS2", "ALL_EU_NUTS2", "1", "0", "1", "1"]
 # start the counter on 1, because of the one pre-determined row
 OFFSET = 1
 COUNTRIES_TO_EXCLUDE = ["TR"]
-OUTPUTFILENAME = "hyb_regions"
+OUTPUTFILENAME = "regions"
 # if false use a default counter, otherwise fix to 50 (extra column/row in EXIOBASE)
 FIX_NUTS2_LOCAL_ID = True
 # filter extra regions out

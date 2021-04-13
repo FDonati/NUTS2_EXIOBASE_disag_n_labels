@@ -1,5 +1,5 @@
 name	code	global_id	parent_id	local_id	level
-Total final consumption	FC	1	0	1	1
+Total final consumption	TOTAL	1	0	1	1
 Final consumption expenditure by households	FC1	2	1	1	2
 Final consumption expenditure by non-profit organisations serving households	FC2	3	1	2	2
 Final consumption expenditure by government	FC3	4	1	3	2

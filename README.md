@@ -38,7 +38,6 @@ Purpose: Modify the product csv made from prepare_csv.py for use as a tree in mo
 Usage: if the mod_final_productTree.csv is available you can run the script. Please check the MAX_ if there are any changes
 
 
-
 # More info
 For more information see:
 -  https://github.com/SidneyNiccolson/IEplatform/tree/master/IEMasterProject

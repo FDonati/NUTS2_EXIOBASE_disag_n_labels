@@ -15,7 +15,7 @@ import os, sys
 from collections import defaultdict
 import itertools
 
-MY_TREE_FILE = 'data/mod_final_productTree_exiovisuals.csv'
+MY_TREE_FILE = 'mod_final_productTree_exiovisuals.csv'
 BINS = {}
 MYDATA = []
 MAX_NUMBER_OF_GLOBAL_IDS = 276
@@ -49,8 +49,8 @@ def getfile(myFile):
 
 
 def constructFinalCSV(data):
-    with open('data/modelling_' + os.path.basename(MY_TREE_FILE), 'w') as csvfile:
-        assets_fn = open('data/modelling_' + os.path.basename('final_productTree_exiovisuals.csv'), 'w')
+    with open('labels/'+ MY_TREE_FILE, 'w') as csvfile:
+        assets_fn = open('labels/'+ MY_TREE_FILE, 'w')
         writer = csv.writer(csvfile, delimiter='\t',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
         assets_writer = csv.writer(assets_fn, delimiter='\t',
@@ -99,5 +99,5 @@ def constructFinalCSV(data):
 
 # Start execution here!
 if __name__ == '__main__':
-    data = getfile(MY_TREE_FILE)
+    data = getfile('data/'+ MY_TREE_FILE)
     constructFinalCSV(data)
