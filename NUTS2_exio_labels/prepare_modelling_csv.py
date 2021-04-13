@@ -6,7 +6,6 @@ Purpose: Modify the product csv made from prepare_csv.py for use as a tree in mo
         It create to files: prefix=modelling_mod for DB use and prefix=modelling_ for front-end use
         MAX_NUMBER_OF_GLOBAL_IDS and MAX_NUMBER_OF_LOCAL_IDS refers to the product.csv made from prepare_csv
         Check header for which column it refers to
-
 Usage: if the mod_final_productTree.csv is available you can run the script. Please check the MAX_ if there are any changes
 ####
 """
@@ -16,7 +15,7 @@ import os, sys
 from collections import defaultdict
 import itertools
 
-MY_TREE_FILE = 'input_data/products.csv'
+MY_TREE_FILE = 'data/mod_final_productTree_exiovisuals.csv'
 BINS = {}
 MYDATA = []
 MAX_NUMBER_OF_GLOBAL_IDS = 276
@@ -50,8 +49,8 @@ def getfile(myFile):
 
 
 def constructFinalCSV(data):
-    with open('output_data/modelling_' + os.path.basename(MY_TREE_FILE), 'w') as csvfile:
-        assets_fn = open('output_data/modelling_' + os.path.basename('products.csv'), 'w')
+    with open('data/modelling_' + os.path.basename(MY_TREE_FILE), 'w') as csvfile:
+        assets_fn = open('data/modelling_' + os.path.basename('final_productTree_exiovisuals.csv'), 'w')
         writer = csv.writer(csvfile, delimiter='\t',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
         assets_writer = csv.writer(assets_fn, delimiter='\t',
@@ -70,7 +69,6 @@ def constructFinalCSV(data):
             parent_id = int(data[x][3]) - OFFSET
             local_id = data[x][4]
             level = data[x][5]
-            print(data[x])
             identifier = data[x][6]
             leaf_children_global = data[x][7]
             leaf_children_local = data[x][8]
